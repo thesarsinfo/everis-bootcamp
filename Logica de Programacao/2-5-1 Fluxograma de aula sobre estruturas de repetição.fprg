@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-09 11:52:24 "/>
+        <attribute name="created" value="VXNlcjtVU0VSLVBDOzIwMjAtMTEtMDk7IjExOjA1OjU1ICI7MjExMw=="/>
+        <attribute name="edited" value="VXNlcjtVU0VSLVBDOzIwMjAtMTEtMDk7IjExOjUyOjI0ICI7MjsyMjIw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Numero, Tabuada, Contador" type="Integer" array="False" size=""/>
+            <assign variable="Contador" expression="0"/>
+            <output expression="&quot;Digite um n&#250;mero para calcular a sua tabuada at&#233; o valor que deseja&quot;" newline="True"/>
+            <output expression="&quot;Digite o Numero da qual voc&#234; que saber da tabuada&quot;" newline="True"/>
+            <input variable="Numero"/>
+            <output expression="&quot;Digite o n&#250;mero da tabuada&quot;" newline="True"/>
+            <input variable="Tabuada"/>
+            <while expression="Contador&lt;=Tabuada">
+                <output expression="&quot;O &quot; &amp; Numero &amp; &quot; x &quot; &amp; Contador &amp; &quot; &#233; igual a &quot; &amp; Numero*Contador" newline="True"/>
+                <assign variable="Contador" expression="Contador + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

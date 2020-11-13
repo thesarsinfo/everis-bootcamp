@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-09 07:59:48 "/>
+        <attribute name="created" value="VXNlcjtVU0VSLVBDOzIwMjAtMTEtMDk7IjA3OjQ5OjU0ICI7MjEyNQ=="/>
+        <attribute name="edited" value="VXNlcjtVU0VSLVBDOzIwMjAtMTEtMDk7IjA3OjU5OjQ4ICI7MTsyMjM3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Numero, Limite" type="Integer" array="False" size=""/>
+            <assign variable="Numero" expression="1"/>
+            <assign variable="Limite" expression="10"/>
+            <while expression="Numero &lt;= Limite">
+                <output expression="&quot;O numero &#233; &quot; &amp; Numero" newline="True"/>
+                <assign variable="Numero" expression="Numero + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

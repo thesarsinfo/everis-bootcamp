@@ -1,0 +1,39 @@
+pacth administrador
+az 900 easy
+az 103ou104 foda
+az 500 foda
+az 203 foda
+az 400 Fundido
+az 300 Nivel Fudido
+az 301
+
+Session data: From 2020-09-28, 07:33:58 to 2020-09-28, 08:46:01
+Session: 01:12h
+Loot Type: Market
+Loot: 1,588,928
+Supplies: 1,012,044
+Balance: 576,884
+Hellwalkerr
+	Loot: 0
+	Supplies: 369,225
+	Balance: -369,225
+	Damage: 2,217,781
+	Healing: 1,385,496
+Sosterziin (Leader)
+	Loot: 28,700
+	Supplies: 215,397
+	Balance: -186,697
+	Damage: 1,935,563
+	Healing: 475,487
+Unidos Dobaralho Aquatro
+	Loot: 219,469
+	Supplies: 284,481
+	Balance: -65,012
+	Damage: 1,430,786
+	Healing: 652,548
+Willians Overlord
+	Loot: 1,340,759
+	Supplies: 142,941
+	Balance: 1,197,818
+	Damage: 1,856,050
+	Healing: 103,538

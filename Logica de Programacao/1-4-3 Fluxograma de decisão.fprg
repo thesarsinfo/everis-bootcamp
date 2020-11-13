@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-05 06:04:34 "/>
+        <attribute name="created" value="VXNlcjtVU0VSLVBDOzIwMjAtMTEtMDU7IjA2OjAyOjM2ICI7MjEwOQ=="/>
+        <attribute name="edited" value="VXNlcjtVU0VSLVBDOzIwMjAtMTEtMDU7IjA2OjA0OjM0ICI7MTsyMjE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Cliente" type="String" array="False" size=""/>
+            <declare name="Cartao" type="Boolean" array="False" size=""/>
+            <declare name="Numero" type="Integer" array="False" size=""/>
+            <output expression="&quot;Qual o seu nome?&quot;" newline="True"/>
+            <input variable="Cliente"/>
+            <output expression="&quot;Voce possui cart&#227;o?&quot;" newline="True"/>
+            <input variable="Cartao"/>
+            <if expression="Cartao">
+                <then>
+                    <output expression="&quot;Digite o n&#250;mero do cartao por favor!&quot;" newline="True"/>
+                    <input variable="Numero"/>
+                </then>
+                <else>
+                    <output expression="&quot;S&#243; trabalhamos com cart&#227;o de cr&#233;dito&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
